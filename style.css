@@ -1,0 +1,63 @@
+body 
+{
+    background-color: #aaaaaa;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#content {
+    margin:50px;
+}
+
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6, .pic7, .pic8, .pic9  {
+    display:table-cell;
+    width:150px;
+    height:150px;
+    border:1px solid white;
+    background: url("https://img.freepik.com/free-photo/vibrant-colors-nature-close-up-wet-purple-daisy-generated-by-artificial-intellingence_25030-63819.jpg");
+    cursor:pointer;
+}
+
+.pic1 {
+    background-position: left top;
+}
+
+.pic2 {
+    background-position: center top;
+}
+
+.pic3 {
+    background-position: right top;
+}
+
+.pic4 {
+    background-position: left center;
+}
+
+.pic5 {
+    background-position: center center;
+}
+
+.pic6 {
+    background-position: right center;
+}
+
+.pic7 {
+    background-position: left bottom;
+}
+
+.pic8 {
+    background-position: center bottom;
+}
+
+.pic9 {
+    background:white;
+    cursor:default;
+}
+
+button {
+    font-size: 25px;
+    border:1px solid black;
+}
